@@ -7,8 +7,9 @@ import 'app/routes/app_pages.dart';
 void main() {
   runApp(
     GetMaterialApp(
-      title: "Application",
-      initialRoute: AppPages.INITIAL,
+      debugShowCheckedModeBanner: false,
+      title: "Sm4rty",
+      initialRoute: Routes.LOGIN,
       getPages: AppPages.routes,
     ),
   );
